@@ -82,7 +82,7 @@
   </link>
   <joint
     name="finger_joint"
-    type="revolute">
+    type="fixed">
     <origin
       xyz="0.0306011444260539 0 0.0627920162695395"
       rpy="0 0 0" />
@@ -193,7 +193,7 @@
   </link>
   <joint
     name="left_inner_knuckle_joint"
-    type="revolute">
+    type="fixed">
     <origin
       xyz="0.0127000000001501 0 0.0693074999999639"
       rpy="0 0 0" />
@@ -208,7 +208,7 @@
       upper="0.8757"
       velocity="2.0"
       effort="1000" />
-    <mimic 
+    <mimic
       joint="finger_joint"
       multiplier="1"
       offset="0" />
@@ -255,7 +255,7 @@
   </link>
   <joint
     name="left_inner_finger_joint"
-    type="revolute">
+    type="fixed">
     <origin
       xyz="0.034585310861294 0 0.0454970193817975"
       rpy="0 0 0" />
@@ -270,7 +270,7 @@
       upper="0.8757"
       velocity="2.0"
       effort="1000" />
-    <mimic 
+    <mimic
       joint="finger_joint"
       multiplier="-1"
       offset="0" />
@@ -317,7 +317,7 @@
   </link>
   <joint
     name="right_inner_knuckle_joint"
-    type="revolute">
+    type="fixed">
     <origin
       xyz="-0.0126999999998499 0 0.0693075000000361"
       rpy="0 0 3.14159265358979" />
@@ -332,7 +332,7 @@
       upper="0.8757"
       velocity="2.0"
       effort="1000" />
-    <mimic 
+    <mimic
       joint="finger_joint"
       multiplier="-1"
       offset="0" />
@@ -379,7 +379,7 @@
   </link>
   <joint
     name="right_inner_finger_joint"
-    type="revolute">
+    type="fixed">
     <origin
       xyz="0.0341060475457406 0 0.0458573878541688"
       rpy="0 0 0" />
@@ -394,7 +394,7 @@
       upper="0.8757"
       velocity="2.0"
       effort="1000" />
-    <mimic 
+    <mimic
       joint="finger_joint"
       multiplier="1"
       offset="0" />
@@ -441,7 +441,7 @@
   </link>
   <joint
     name="right_outer_knuckle_joint"
-    type="revolute">
+    type="fixed">
     <origin
       xyz="-0.0306011444258893 0 0.0627920162695395"
       rpy="0 0 3.14159265358979" />
@@ -456,7 +456,7 @@
       upper="0.8757"
       velocity="2.0"
       effort="1000" />
-    <mimic 
+    <mimic
       joint="finger_joint"
       multiplier="-1"
       offset="0" />
